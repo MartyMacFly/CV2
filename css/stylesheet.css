@@ -1,0 +1,115 @@
+body
+{
+	background-color:grey;
+	margin:1%;
+}
+
+ul { 
+	list-style-type: none; 
+}
+
+#divMenu li:hover
+{
+	background-color:yellow;
+	cursor:pointer;
+}
+
+#home
+{
+	display:block;
+}
+
+.content
+{
+	display:none;
+	background-color:white;
+	width:100%;
+	height:auto;
+}
+
+
+
+#topDiv
+{
+	float:left;
+	width:100%;
+	background-color:grey;
+}
+
+#bottomDiv
+{
+	float:left;
+	width:100%;
+	height:auto;
+}
+
+#divPhoto
+{
+	background-color:grey;
+}
+
+#photo
+{
+	width:80%;
+	height:auto;
+	margin:3%;
+}
+
+#divMenu
+{
+	float:left;
+	width:20%;
+	height:auto;
+	background-color:red;
+}
+
+#divContent
+{
+	float:right;
+	width:80%;
+	height:auto;
+	background-color:white;
+}
+
+@media (min-width: 601px) {
+	li 
+	{
+		margin:3%;
+	}
+
+    #divPhoto
+	{
+		float:left;
+		width:20%;
+	}
+	
+	#profil
+	{
+		float:right;
+		width:80%;
+		background-color:grey;
+	}
+	
+
+}
+
+@media (max-width: 600px) {
+	li 
+	{
+		margin:3%;
+		float:left;
+	}
+
+	#divPhoto
+	{
+		width:100%;
+		height:auto;
+	}
+		
+	#profil
+	{
+		width:100%;
+		height:auto;
+		background-color:grey;
+	}
+}
