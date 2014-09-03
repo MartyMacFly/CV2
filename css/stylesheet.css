@@ -1,17 +1,30 @@
 body
 {
-	background-color:grey;
+	background-color:#A3A89F;
 	margin:1%;
+}
+
+img {
+  vertical-align:middle;
 }
 
 ul { 
 	list-style-type: none; 
+	-webkit-padding-start: 0%;
 }
 
 #divMenu li:hover
 {
-	background-color:yellow;
+	background: linear-gradient(#534FB5, #342EB6);
 	cursor:pointer;
+	width:80%;
+}
+
+.menuSelected
+{
+	background: linear-gradient(#534FB5, #342EB6);
+	cursor:pointer;
+	width:80%;
 }
 
 #home
@@ -33,7 +46,7 @@ ul {
 {
 	float:left;
 	width:100%;
-	background-color:grey;
+	background-color:#A3A89F;
 }
 
 #bottomDiv
@@ -45,7 +58,7 @@ ul {
 
 #divPhoto
 {
-	background-color:grey;
+	background-color:#A3A89F;
 }
 
 #photo
@@ -60,7 +73,7 @@ ul {
 	float:left;
 	width:20%;
 	height:auto;
-	background-color:red;
+	background-color:#A3A89F;
 }
 
 #divContent
@@ -87,7 +100,7 @@ ul {
 	{
 		float:right;
 		width:80%;
-		background-color:grey;
+		background-color:#A3A89F;
 	}
 	
 
@@ -110,6 +123,6 @@ ul {
 	{
 		width:100%;
 		height:auto;
-		background-color:grey;
+		background-color:#A3A89F;
 	}
 }
