@@ -12,10 +12,6 @@ $(function(){
 		});
 		$(".contentSelected").removeClass("contentSelected");
 		
-		
-		
-		
-		
 		/*$(idContent).one('transitionend', function(e)
 		{
 			
