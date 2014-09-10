@@ -60,10 +60,20 @@ header img
 
 .headerImage
 {
+	float:left;
+	margin-left:2%;
 }
 
 .headerText
 {
+	float:left;
+}
+
+.descExp
+{
+	margin: 0 0 0 2%;
+	padding: 2% 0 0 0;
+	clear:both;
 }
 
 #divContent
