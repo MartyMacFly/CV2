@@ -1,6 +1,6 @@
 body
 {
-	background-color:#CCCCC9;
+	background-color:#C6B78B;
 	margin:1%;
 	font-family:Arial;
 }
@@ -25,18 +25,27 @@ header img
 	list-style-type: none; 
 }
 
+#divMenu  li
+{
+	padding:2%;
+}
+
 #divMenu li:hover
 {
-	background: linear-gradient(#534FB5, #342EB6);
+	background: linear-gradient(#8DC73F, #7CC40F);
 	cursor:pointer;
 	width:80%;
+	border-radius:10px;
+	padding:2%;
 }
 
 .menuSelected
 {
-	background: linear-gradient(#534FB5, #342EB6);
+	background: linear-gradient(#8DC73F, #7CC40F);
 	cursor:pointer;
 	width:80%;
+	border-radius:10px;
+	padding:2%;
 }
 
 .content
@@ -108,13 +117,13 @@ header img
 	float:right;
 	width:80%;
 	height:auto;
-	background-color:white;
+	background-color:#FFEBB5;
 	border-radius:10px;
 }
 
 #placeHolderContent header
 {
-	background-color:grey;
+	background-color:#8DC73F;
 	border-radius:10px 10px 0px 0px;
 }
 
@@ -130,7 +139,7 @@ header img
 
 #placeHolderContent footer
 {
-	background-color:grey;
+	background-color:#8DC73F;
 	border-radius:0px 0px 10px 10px;
 	height:15px;
 }
@@ -139,7 +148,7 @@ header img
 {
 	float:left;
 	width:100%;
-	background-color:#CCCCC9;
+	background-color:#C6B78B;
 }
 
 #bottomDiv
@@ -151,7 +160,7 @@ header img
 
 #divPhoto
 {
-	background-color:#CCCCC9;
+	background-color:#C6B78B;
 }
 
 #photo
@@ -167,7 +176,7 @@ header img
 	float:left;
 	width:20%;
 	height:auto;
-	background-color:#CCCCC9;
+	background-color:#C6B78B;
 }
 
 .content section
@@ -178,10 +187,9 @@ header img
 .divSep
 {
 	height:4px;
-	background-color:#CCCCC9;
+	background-color:#C6B78B;
 	width:96%;
-	margin-left:2%;
-	margin-right:2%;
+	margin: 2% 2% 2% 2%;
 }
 
 #sectionPres
@@ -206,7 +214,7 @@ header img
 	{
 		float:right;
 		width:80%;
-		background-color:#CCCCC9;
+		background-color:#C6B78B;
 	}
 	
 
@@ -229,6 +237,6 @@ header img
 	{
 		width:100%;
 		height:auto;
-		background-color:#CCCCC9;
+		background-color:#C6B78B;
 	}
 }

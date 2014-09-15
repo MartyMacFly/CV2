@@ -1,3 +1,9 @@
+var headerTitles = { "#homeContent":"Accueil",
+ "#expContent":"Expérience",
+ "#formaContent" : "Formation",
+ "#compContent" : "Compétences",
+ "#persoContent" : "Divers"};
+
 $(function(){
 
 	$("#divMenu li").click(function(){
@@ -8,6 +14,7 @@ $(function(){
 		$(".contentSelected").one('transitionend', function(e)
 		{
 			$(idContent).addClass("contentSelected");
+			$('#titleContent').html(getHeader(idContent));
 			//$(contentSelected).addClass("contentSelected");
 		});
 		$(".contentSelected").removeClass("contentSelected");
@@ -18,3 +25,8 @@ $(function(){
 		});*/
 	});
 });
+
+function getHeader(idContent)
+{
+	return headerTitles[idContent]
+}
